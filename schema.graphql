@@ -1,0 +1,17 @@
+type FailedPayment @entity {
+  id: ID!
+  _beneficiary: Bytes! # address
+  amount: BigInt! # uint256
+}
+
+type Payment @entity {
+  id: ID!
+  _beneficiary: Bytes! # address
+  amount: BigInt! # uint256
+}
+
+type JackpotPayment @entity {
+  id: ID!
+  _beneficiary: Bytes! # address
+  amount: BigInt! # uint256
+}
